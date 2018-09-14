@@ -1,0 +1,34 @@
+/* CSS Document */
+.btn-primary {
+  color: #fff;
+  background-color: #bb1f33;
+  border-color: #bb1f33;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #ad1e36;
+  border-color: #a01c32;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #bb1f33;
+  border-color: #bb1f33;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #a01c32;
+  border-color: #911a34;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
