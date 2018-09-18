@@ -66,3 +66,16 @@
 	font-family: "hudsons-thin";
 	src: url(./Resources/fonts/roboto-slab/RobotoSlab-Thin.ttf);
 }
+
+li
+{
+	font-family: "hudsons";
+}
+p
+{
+	font-family: "hudsons";
+}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: "hudsons-bold";	
+}
