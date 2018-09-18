@@ -49,5 +49,20 @@
 @font-face
 {
 	font-family: "hudsons";
-	src: url()
+	src: url(./Resources/fonts/roboto-slab/RobotoSlab-Regular.ttf);
+}
+@font-face
+{
+	font-family: "hudsons-light";
+	src: url(./Resources/fonts/roboto-slab/RobotoSlab-Light.ttf);
+}
+@font-face
+{
+	font-family: "hudsons-bold";
+	src: url(./Resources/fonts/roboto-slab/RobotoSlab-Bold.ttf);
+}
+@font-face
+{
+	font-family: "hudsons-thin";
+	src: url(./Resources/fonts/roboto-slab/RobotoSlab-Thin.ttf);
 }
