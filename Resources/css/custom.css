@@ -40,3 +40,8 @@
 	-o-transform: rotate(90deg);
 	-ms-transform: rotate(90deg);
 }
+
+.logo-size-change
+{
+	height: 6rem;
+}
