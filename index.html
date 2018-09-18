@@ -46,11 +46,13 @@ $(document).ready(function(){
 	</head>
 
 	<body id="page" data-spy="scroll" data-target=".navbar" >
-		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark border-bottom shadow-sm">
-			<a href="#page"><img src="./Resources/images/Hudsons_red.svg" class="navbar-brand logo-size-change" alt="Hudsons Logo" style="display: inline-block;"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark border-bottom shadow-sm ">
+			<a  class="navbar-brand" href="#page"><img src="./Resources/images/Hudsons_red.svg" class="logo-size-change" alt="Hudsons Logo" style="display: inline-block;"></a>
+			<div class="navbar-header navbar-size-change">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
@@ -60,7 +62,7 @@ $(document).ready(function(){
 						<a class="nav-link" href="#menu">Menu</a>
 					</li>
 				</ul>
-				<a class="btn btn-outline-primary" href="#">Sign up</a>
+				<a class="btn btn-outline-primary" href="#signup">Sign up</a>
 			</div>
 		</nav>
 		<main role="main" class="container-fluid">
@@ -179,7 +181,7 @@ $(document).ready(function(){
 				</div>
 			</div>
 		
-		<div class="container">
+		<div class="container" id="signup">
 			<form>
 				<div class="form-group">
 					<label for="exampleInputEmail1">Email address</label>
@@ -196,7 +198,7 @@ $(document).ready(function(){
 				</div>
 				<button type="submit" class="btn btn-primary">Submit</button>
 			</form>
-			</div>
+		</div>
 		<footer>
 			<img class="mb-2" src="../../assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
 			<small class="d-block mb-3 text-muted">&copy; 2017-2018</small>

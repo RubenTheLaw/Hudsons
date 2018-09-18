@@ -57,7 +57,14 @@ h1, h2, h3, h4, h5, h6
 {
 	height: 6rem;
 }
-
+.navbar-size-change
+{
+	height: 3rem;
+}
+button
+{
+	vertical-align:middle;
+}
 .row
 {
 	overflow-x: none;
@@ -105,4 +112,8 @@ html {
 
 .card-deck .card {
   min-width: 220px;
+}
+.navbar
+{
+	z-index: 9999;
 }
