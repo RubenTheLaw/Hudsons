@@ -1,4 +1,16 @@
 /* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+li, ol, ul, p, button, form, span
+{
+	font-family: "Roboto Slab", serif;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family: "Roboto Slab", serif;
+	font-weight: 700;
+}
 .btn-primary {
   color: #fff;
   background-color: #bb1f33;
@@ -46,36 +58,51 @@
 	height: 6rem;
 }
 
-@font-face
+.row
 {
-	font-family: "hudsons";
-	src: url(./Resources/fonts/roboto-slab/RobotoSlab-Regular.ttf);
+	overflow-x: none;
 }
-@font-face
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+.bg-grey
 {
-	font-family: "hudsons-light";
-	src: url(./Resources/fonts/roboto-slab/RobotoSlab-Light.ttf);
+	background-color: #F6F6F6;
 }
-@font-face
-{
-	font-family: "hudsons-bold";
-	src: url(./Resources/fonts/roboto-slab/RobotoSlab-Bold.ttf);
+html {
+  font-size: 14px;
 }
-@font-face
-{
-	font-family: "hudsons-thin";
-	src: url(./Resources/fonts/roboto-slab/RobotoSlab-Thin.ttf);
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
 }
 
-li
-{
-	font-family: hudsons;
+.container {
+  max-width: 960px;
 }
-p
-{
-	font-family: hudsons;
+
+.pricing-header {
+  max-width: 700px;
 }
-h1, h2, h3, h4, h5, h6
-{
-	font-family: hudsons-bold;	
+
+.card-deck .card {
+  min-width: 220px;
 }
